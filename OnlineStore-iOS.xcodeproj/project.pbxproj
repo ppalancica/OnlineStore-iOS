@@ -54,14 +54,54 @@
 		B303B927276BEAFF00609E3B /* OnlineStore-iOS */ = {
 			isa = PBXGroup;
 			children = (
-				B303B928276BEAFF00609E3B /* AppDelegate.swift */,
-				B303B92A276BEAFF00609E3B /* SceneDelegate.swift */,
-				B303B92C276BEAFF00609E3B /* RootViewController.swift */,
+				B3842BFA276D3D5B0055A4E2 /* Application */,
+				B3842BFD276D3E090055A4E2 /* Helpers */,
+				B3842BFE276D3E100055A4E2 /* Models */,
+				B3842BF9276D3D530055A4E2 /* Services */,
+				B3842BFF276D3E350055A4E2 /* ViewControllers */,
 				B303B931276BEB0200609E3B /* Assets.xcassets */,
 				B303B933276BEB0200609E3B /* LaunchScreen.storyboard */,
 				B303B936276BEB0200609E3B /* Info.plist */,
 			);
 			path = "OnlineStore-iOS";
+			sourceTree = "<group>";
+		};
+		B3842BF9276D3D530055A4E2 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B3842BFA276D3D5B0055A4E2 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				B303B92A276BEAFF00609E3B /* SceneDelegate.swift */,
+				B303B928276BEAFF00609E3B /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		B3842BFD276D3E090055A4E2 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		B3842BFE276D3E100055A4E2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B3842BFF276D3E350055A4E2 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B303B92C276BEAFF00609E3B /* RootViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
